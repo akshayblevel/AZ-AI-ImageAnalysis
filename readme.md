@@ -113,4 +113,144 @@
   }
 }
 ```
+<img width="3588" height="1483" alt="image" src="https://github.com/user-attachments/assets/ce210062-a950-4c24-920b-7eecfd1e5db7" />
+
+```JSON
+{
+  "modelVersion": "2023-10-01",
+  "captionResult": {
+    "text": "a boy holding a black bag",
+    "confidence": 0.7763607501983643
+  },
+  "metadata": {
+    "width": 3024,
+    "height": 4032
+  }
+}
+```
+
+<img width="3586" height="1479" alt="image" src="https://github.com/user-attachments/assets/7dac946b-ced2-48d4-8883-6fa83b5589fb" />
+
+```JSON
+{
+  "modelVersion": "2023-10-01",
+  "metadata": {
+    "width": 3024,
+    "height": 4032
+  },
+  "objectsResult": {
+    "values": [
+      {
+        "boundingBox": {
+          "x": 0,
+          "y": 341,
+          "w": 497,
+          "h": 1169
+        },
+        "tags": [
+          {
+            "name": "person",
+            "confidence": 0.748
+          }
+        ]
+      },
+      {
+        "boundingBox": {
+          "x": 360,
+          "y": 394,
+          "w": 448,
+          "h": 1010
+        },
+        "tags": [
+          {
+            "name": "person",
+            "confidence": 0.698
+          }
+        ]
+      },
+      {
+        "boundingBox": {
+          "x": 997,
+          "y": 598,
+          "w": 539,
+          "h": 846
+        },
+        "tags": [
+          {
+            "name": "person",
+            "confidence": 0.768
+          }
+        ]
+      },
+      {
+        "boundingBox": {
+          "x": 1192,
+          "y": 2111,
+          "w": 566,
+          "h": 778
+        },
+        "tags": [
+          {
+            "name": "person",
+            "confidence": 0.556
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+<img width="3585" height="1553" alt="image" src="https://github.com/user-attachments/assets/d976dfca-375b-4ef5-9b35-e4cb947df7a7" />
+
+```JSON
+{
+  "modelVersion": "2023-10-01",
+  "metadata": {
+    "width": 3024,
+    "height": 4032
+  },
+  "tagsResult": {
+    "values": [
+      {
+        "name": "text",
+        "confidence": 0.9953757524490356
+      },
+      {
+        "name": "clothing",
+        "confidence": 0.989494800567627
+      },
+      {
+        "name": "footwear",
+        "confidence": 0.9873781204223633
+      },
+      {
+        "name": "human face",
+        "confidence": 0.871699869632721
+      },
+      {
+        "name": "floor",
+        "confidence": 0.8143149614334106
+      },
+      {
+        "name": "indoor",
+        "confidence": 0.8037976026535034
+      },
+      {
+        "name": "person",
+        "confidence": 0.7713069915771484
+      },
+      {
+        "name": "sign",
+        "confidence": 0.6258848905563354
+      },
+      {
+        "name": "ground",
+        "confidence": 0.5991366505622864
+      }
+    ]
+  }
+}
+```
+
 
